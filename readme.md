@@ -73,6 +73,10 @@ No need a database installation make your website very fast, and of course with 
 
 Need demo ?? [Just Play Demo Video →](https://www.youtube.com/watch?v=X4fXZSY4NyA)
 
+Live test speed and demo website using company profile themes
+https://axcora.my.id
+
+
 More themes :
 https://axcora.com/getaxcoracms
 
