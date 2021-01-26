@@ -29,10 +29,7 @@ if (get_filename_id() == 'load') {
 <ul class="nav navbar bg-danger rounded<?php echo $plugin_class; ?>">
 	<li id="nav_pages" ><a class="pages text-white" href="pages.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_PAGES'));?>" >Page</a></li>
 	<li id="nav_upload" ><a class="files text-white" href="upload.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_FILES'));?>" >File</a></li>
-	<!--<li id="nav_theme" ><a class="theme" href="theme.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_THEME'));?>" ><?php i18n('TAB_THEME');?></a></li>
-	<li id="nav_backups" ><a class="backups" href="backups.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_BACKUPS'));?>" ><?php i18n('TAB_BACKUPS');?></a></li>
-	<li id="nav_plugins" ><a class="plugins" href="plugins.php" accesskey="<?php echo find_accesskey(i18n_r('PLUGINS_NAV'));?>" ><?php i18n('PLUGINS_NAV');?></a></li>
-	-->
+	<li id="nav_upload" ><a class="files text-white" href="plugsnew.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_FILES'));?>" >POS</a></li>
 	<?php exec_action('nav-tab');	?>
 	
 	<li class="rightnav" ><a class="settings first text-white" href="settings.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_SETTINGS'));?>" ><?php i18n('TAB_SETTINGS');?></a></li>
